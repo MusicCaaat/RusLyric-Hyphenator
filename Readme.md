@@ -23,6 +23,8 @@
 
 Для разработчиков: Если вы хотите изменить логику слогоделения под свои задачи (например, использовать строгий школьный перенос), вы можете отредактировать соответствующие правила в исходном коде (RusLyric_Hyphenator.py) в секции обработки согласных.
 
+---
+
 ### Поддержать проект
 Если программа сэкономила вам время и вы хотите поблагодарить автора, вы можете отправить донат на развитие проекта через **ЮMoney**:
 * **[Поддержать автора (картой или из кошелька)](https://yoomoney.ru/to/4100118714515464)**
@@ -65,7 +67,10 @@ The "Always-in-Tray" background mode was considered but discarded due to specifi
 
 For Developers: If you wish to modify the hyphenation logic (e.g., to use strict academic/school rules), you can edit the consonant processing rules in the source code (RusLyric_Hyphenator.py).
 
+---
+
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
