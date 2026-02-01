@@ -1,6 +1,6 @@
 # РуСлог / RusLyric Hyphenator
 
-Профессиональная утилита для автоматической подготовки русского вокального текста к вставке в нотные редакторы (**Sibelius, Finale, MuseScore** и др.).
+Профессиональная утилита для автоматической подготовки русского вокального текста к вставке в нотные редакторы (**Sibelius, Finale).
 
 ### О программе
 В нотаторах Сибелиус и Финал нет деления на слоги русских слов. Для вставки в ноты слогов на русском приходится самому делить слова на слоги, либо обращаться к специальным сервисам или нейросетям. Любой из этих способов неудобный и затратный по времени. Также, после самостоятельного деления на слоги возникают другие проблемы при вставке их в ноты – при наличии в тексте предлогов «в», «к», «с», а также частиц «ж», «ль», «б» нотатор, после вставки этих предлогов или частиц, автоматически перебрасывает на следующую ноту. Это заставляет возвращаться к предлогу/частице и использовать неразрывный пробел (ещё одно лишнее действие).
@@ -33,7 +33,7 @@
 English Version
 RusLyric Hyphenator / RuSlog
 
-A professional utility for automatic processing of Russian vocal texts for music notation software (Sibelius, Finale, MuseScore, etc.).
+A professional utility for automatic processing of Russian vocal texts for music notation software (Sibelius, Finale).
 About the Program
 
 Music notation programs like Sibelius and Finale do not support automatic hyphenation for the Russian language. Users are forced to manually split lyrics into syllables or use external services, which is time-consuming.
@@ -72,5 +72,6 @@ For Developers: If you wish to modify the hyphenation logic (e.g., to use strict
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
