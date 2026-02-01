@@ -13,10 +13,13 @@
 * **Работа с частицами:** Частицы `ж, б, ль` привязываются к предыдущему слову/слогу.
 
 ### Инструкция по применению:
-1.	Скопируйте исходный русский текст из любого источника (Word, блокнот, браузер).
-2.	Запустите файл `RusLyric_Hyphenator.exe` (ни консоли, ни отображения окна с программой не будет, всё произойдёт в фоновом режиме – отредактированный текст сразу окажется в буфере обмена).
-3. Перейдите в нотный редактор, выберите первую ноту и активируйте инструмент ввода текста (Lyrics).
-4. Нажимайте `Ctrl+V`. Программа сама расставит слоги по нотам.
+0. **Зайдите в настройки нотатора и обязательно отключите автоматическое разбиение на слоги. В Сибелиусе это находится в Настройки->Другое.
+   Справа под надписью "Вставить текст песни из буфера обмена" снять галочку "Автоматически разбивать вставленный текст песни на слоги".
+   Если этого не сделать, то алгоритмы сибелиуса начнут мешать правильной вставке неразрывных пробелов для предлога "в" и частиц "б" и "ж", склеивая слово/слог с предлогом/частицей.**
+2.	Скопируйте исходный русский текст из любого источника (Word, блокнот, браузер).
+3.	Запустите файл `RusLyric_Hyphenator.exe` (ни консоли, ни отображения окна с программой не будет, всё произойдёт в фоновом режиме – отредактированный текст сразу окажется в буфере обмена).
+4. Перейдите в нотный редактор, выберите первую ноту и активируйте инструмент ввода текста (Lyrics).
+5. Нажимайте `Ctrl+V`. Программа сама расставит слоги по нотам.
 
 Чего НЕ удалось достичь – правильного копирования в ноты начала прямой речи. Т.е. текст типа “«- Деление слов…»” (прямая речь с кавычками) нотатор будет менять на « - Деление слов», а “- Деление слов” (т.е. прямая речь без кавычек), нотатор будет менять на “Деление слов”. Дефис/тире в начале текста он будет игнорировать сразу, «приклеенный» к кавычке дефис/тире он будет разделять пробелом. 
 Также была идея создания программы, чтобы она работала в трее. Т.е. после запуска любой скопированный текст сразу делится на слоги и возвращается в буфер обмена. НО такой способ не смог устранить проблему сочетания предлога «в» со словами/слогами начинающимися на «т». Почему в такой версии программы неразрывный пробел (неважно в каком из 3х вариантов) не срабатывает и, например, сочетание «в том» отображается как «втом», что заставляет вернуться к этой ноте и вручную вбивать неразрывный пробел между предлогом и словом/слогом. 
@@ -50,7 +53,10 @@ Key Features:
     Particle Binding: Particles ж, б, ль are automatically bound to the preceding syllable/word.
 
 How to Use:
-
+    **Go to the notation software settings and make sure to disable automatic syllabification. In Sibelius, navigate to Preferences -> Other. 
+    Under the "Paste lyrics from clipboard" section on the right, uncheck "Split pasted lyrics into syllables automatically". 
+    Otherwise, Sibelius's internal algorithms will interfere with the correct insertion of non-breaking spaces for prepositions and particles, incorrectly merging them with the following or preceding words.**
+    
     Copy your Russian source text from any document (Word, Notepad, Browser).
 
     Run RusLyric_Hyphenator.exe. (The program runs silently in the background; there is no window. Your clipboard will be updated instantly).
@@ -72,6 +78,7 @@ For Developers: If you wish to modify the hyphenation logic (e.g., to use strict
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
