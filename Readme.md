@@ -32,6 +32,7 @@
 Если программа сэкономила вам время и вы хотите поблагодарить автора, вы можете отправить донат на развитие проекта через **ЮMoney**:
 * **[Поддержать автора (картой или из кошелька)](https://yoomoney.ru/to/4100118714515464)**
 
+---
 
 **English Version**
 RusLyric Hyphenator / RuSlog
@@ -78,6 +79,7 @@ For Developers: If you wish to modify the hyphenation logic (e.g., to use strict
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
