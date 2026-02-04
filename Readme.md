@@ -12,6 +12,9 @@
 * **Умная привязка предлогов:** Автоматически объединяет предлоги `в, к, с` со следующим словом через неразрывный пробел. Предлог всегда остается вместе со словом на одной ноте.
 * **Работа с частицами:** Частицы `ж, б, ль` привязываются к предыдущему слову/слогу.
 
+### **ВАЖНО:**
+**Если у вас Windows 7 и основная версия выдает ошибку, используйте файл с пометкой _Win7**
+
 ### Инструкция по применению:
 0. **Зайдите в настройки нотатора и обязательно отключите автоматическое разбиение на слоги. В Сибелиусе это находится в Настройки->Другое.
    Справа под надписью "Вставить текст песни из буфера обмена" снять галочку "Автоматически разбивать вставленный текст песни на слоги".
@@ -53,6 +56,9 @@ Key Features:
 
     Particle Binding: Particles ж, б, ль are automatically bound to the preceding syllable/word.
 
+**IMPORTANT:** 
+**If you are using Windows 7 and the main version shows an error, please use the _Win7 file.**
+
 How to Use:
     **Go to the notation software settings and make sure to disable automatic syllabification. In Sibelius, navigate to Preferences -> Other. 
     Under the "Paste lyrics from clipboard" section on the right, uncheck "Split pasted lyrics into syllables automatically". 
@@ -79,6 +85,7 @@ For Developers: If you wish to modify the hyphenation logic (e.g., to use strict
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
