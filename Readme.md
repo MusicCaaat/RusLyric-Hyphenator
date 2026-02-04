@@ -37,7 +37,7 @@
 
 ---
 
-**English Version (Mirror of the Russian one)**
+English Version (Mirror of the Russian one)
 
 RusLog (RusLyric Hyphenator) A professional utility for automatic preparation of Russian vocal texts for music notation software (Sibelius, Finale).
 About the Program
@@ -47,23 +47,19 @@ Music notation programs like Sibelius and Finale do not support automatic hyphen
 RusLog automates this process, handling both hyphenation and the insertion of non-breaking spaces between prepositions, syllables, and particles.
 Key Features:
 
-    Vocal Hyphenation: The algorithm follows classical vocal rules, favoring "open" syllables (ending in a vowel).
-
-    Smart Preposition Binding: Automatically binds prepositions в, к, с to the following word using a non-breaking space. The preposition always stays on the same note as the word.
-
-    Particle Handling: Particles ж, б, ль are automatically bound to the preceding word/syllable.
+    1. Vocal Hyphenation: The algorithm follows classical vocal rules, favoring "open" syllables (ending in a vowel).
+    2. Smart Preposition Binding: Automatically binds prepositions в, к, с to the following word using a non-breaking space. The preposition always stays on the same note as the word.
+    3. Particle Handling: Particles ж, б, ль are automatically bound to the preceding word/syllable.
 
     IMPORTANT: If you are using Windows 7 and the main version shows an error (e.g., api-ms-win-core-path-l1-1-0.dll), please use the file marked _Win7.
 
 Instructions for Use:
 
-    Notation Software Settings: You must disable automatic syllabification. In Sibelius, go to Preferences -> Other. Under the "Paste lyrics from clipboard" section, uncheck "Split pasted lyrics into syllables automatically". Otherwise, Sibelius's internal algorithms will interfere with the correct insertion of non-breaking spaces, merging prepositions and particles incorrectly.
-
-    Copy Source Text: Copy your Russian text from any document (Word, Notepad, Browser).
-
-    Run the Utility: Run RusLyric_Hyphenator.exe. The program runs silently in the background; there is no window. Your clipboard will be updated instantly.
-
-    Paste into Notation Software: Select the first note, activate the Lyrics tool, and press Ctrl+V. The program will automatically distribute the syllables across the notes.
+    Notation Software Settings: 
+    0. You must disable automatic syllabification. In Sibelius, go to Preferences -> Other. Under the "Paste lyrics from clipboard" section, uncheck "Split pasted lyrics into syllables automatically". Otherwise, Sibelius's internal algorithms will interfere with the correct insertion of non-breaking spaces, merging prepositions and particles incorrectly.
+    1. Copy Source Text: Copy your Russian text from any document (Word, Notepad, Browser).
+    2. Run the Utility: Run RusLyric_Hyphenator.exe. The program runs silently in the background; there is no window. Your clipboard will be updated instantly.
+    3. Paste into Notation Software: Select the first note, activate the Lyrics tool, and press Ctrl+V. The program will automatically distribute the syllables across the notes.
 
 Known Limitations:
 
@@ -71,12 +67,12 @@ The program currently cannot correctly handle the beginning of direct speech. Fo
 For Developers:
 
 If you wish to modify the hyphenation logic (e.g., to use strict school-style rules), you can edit the rules in the source code (RusLyric_Hyphenator.py) in the consonant processing section.
-
 ---
 
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
