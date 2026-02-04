@@ -12,8 +12,10 @@
 * **Умная привязка предлогов:** Автоматически объединяет предлоги `в, к, с` со следующим словом через неразрывный пробел. Предлог всегда остается вместе со словом на одной ноте.
 * **Работа с частицами:** Частицы `ж, б, ль` привязываются к предыдущему слову/слогу.
 
+---
 ### **ВАЖНО:**
 **Если у вас Windows 7** и основная версия выдает ошибку (например, api-ms-win-core-path-l1-1-0.dll), **используйте файл с пометкой _Win7**
+---
 
 ### Инструкция по применению:
 0. **Зайдите в настройки нотатора и обязательно отключите автоматическое разбиение на слоги. В Сибелиусе это находится в Настройки->Другое.
@@ -51,7 +53,10 @@ Key Features:
     2. Smart Preposition Binding: Automatically binds prepositions в, к, с to the following word using a non-breaking space. The preposition always stays on the same note as the word.
     3. Particle Handling: Particles ж, б, ль are automatically bound to the preceding word/syllable.
 
-IMPORTANT: If you are using Windows 7 and the main version shows an error (e.g., api-ms-win-core-path-l1-1-0.dll), please use the file marked _Win7.
+---
+**IMPORTANT:**
+**If you are using Windows 7** and the main version shows an error (e.g., api-ms-win-core-path-l1-1-0.dll), **please use the file marked _Win7**.
+---
 
 Instructions for Use:
 
@@ -72,6 +77,7 @@ If you wish to modify the hyphenation logic (e.g., to use strict school-style ru
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
