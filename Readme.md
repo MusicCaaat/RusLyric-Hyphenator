@@ -13,7 +13,7 @@
 * **Работа с частицами:** Частицы `ж, б, ль` привязываются к предыдущему слову/слогу.
 
 ### **ВАЖНО:**
-**Если у вас Windows 7 и основная версия выдает ошибку, используйте файл с пометкой _Win7**
+**Если у вас Windows 7 и основная версия выдает ошибку (например, api-ms-win-core-path-l1-1-0.dll), используйте файл с пометкой _Win7**
 
 ### Инструкция по применению:
 0. **Зайдите в настройки нотатора и обязательно отключите автоматическое разбиение на слоги. В Сибелиусе это находится в Настройки->Другое.
@@ -57,7 +57,7 @@ Key Features:
     Particle Binding: Particles ж, б, ль are automatically bound to the preceding syllable/word.
 
 **IMPORTANT:** 
-**If you are using Windows 7 and the main version shows an error, please use the _Win7 file.**
+**If you are using Windows 7 and the main version shows an error (for example - api-ms-win-core-path-l1-1-0.dll), please use the _Win7 file.**
 
 How to Use:
     **Go to the notation software settings and make sure to disable automatic syllabification. In Sibelius, navigate to Preferences -> Other. 
@@ -85,6 +85,7 @@ For Developers: If you wish to modify the hyphenation logic (e.g., to use strict
 ### Support the Project
 If you find this tool useful and would like to support the developer, you can make a donation via **Yoomoney** (supports bank cards):
 * **[Donate via Yoomoney](https://yoomoney.ru/to/4100118714515464)**
+
 
 
 
